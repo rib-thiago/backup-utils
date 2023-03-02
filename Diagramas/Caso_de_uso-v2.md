@@ -83,3 +83,5 @@ style TRIGGER fill:#ccf;
 style S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12 stroke:#333,stroke-width:2px,fill:#fff;
 style ERR1,ERR2,ERR3,ERR4,ERR5,ERR6 stroke:#f00,stroke-width:2px,fill:#fff,stroke-dasharray: 5, 5;
 ```
+
+![flow2](../flow2.png)

@@ -20,3 +20,5 @@ S9-->S10([O utilitário exibe um relatório de status do backup com informaçõe
 S10-->S11([O utilitário envia uma notificação por e-mail para o usuário com informações relevantes sobre o backup, como a data e hora da conclusão, o tamanho do arquivo de backup e o status geral do backup]);
 S11-->S12([O usuário visualiza o log do backup para verificar se há algum problema.]);
 ```
+
+![caso-uso-1](../flow1.png)

@@ -51,3 +51,5 @@ classDiagram
     BackupLog --> Backup
     EmailNotification --> Backup
 ```
+
+![classes](../output.png)

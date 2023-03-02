@@ -22,3 +22,5 @@ sequenceDiagram
     NotificationSystem-->>-BackupUtility: Confirmação do envio da notificação
     BackupUtility-->>-User: Exibe relatório de status do backup
 ```
+
+![seq](../saida.png)

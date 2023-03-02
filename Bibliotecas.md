@@ -213,7 +213,7 @@ npm i jzip js-yaml inquirer chalk moment bunyan
 [Node-schedule]:<https://www.npmjs.com/package/node-schedule>
 [Chalk]:<https://www.npmjs.com/package/chalk>
 [js-yaml]:<https://www.npmjs.com/package/js-yaml>
-[jzsip]:<https://www.npmjs.com/package/jszip>
+[jszip]:<https://www.npmjs.com/package/jszip>
 [commander]:<https://www.npmjs.com/package/commander#variadic-option>
 
 

@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "merma": "mmdc"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "inquirer": "^9.1.4",
     "js-yaml": "^4.1.0",
     "jzip": "^1.0.0",
+    "mermaid": "^10.0.2",
     "moment": "^2.29.4"
   }
 }

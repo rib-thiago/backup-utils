@@ -1,0 +1,36 @@
+# User Jorney
+
+```mermaid
+journey
+    title User Journey: Backup Files
+
+    section User initiates backup process
+        User->>CommandLineUtility: Opens command line utility
+        CommandLineUtility->>User: Displays welcome message and backup command
+        User->>CommandLineUtility: Types backup command and hits enter
+
+    section CommandLineUtility prompts user for backup settings
+        CommandLineUtility->>User: Prompts user to select files and directories
+        User->>CommandLineUtility: Selects files and directories
+        CommandLineUtility->>User: Prompts user for backup frequency
+        User->>CommandLineUtility: Specifies backup frequency
+        CommandLineUtility->>User: Prompts user for backup name and location
+        User->>CommandLineUtility: Specifies backup name and location
+        CommandLineUtility->>User: Prompts user for backup compression level
+        User->>CommandLineUtility: Specifies backup compression level
+        CommandLineUtility->>User: Prompts user for backup retention period
+        User->>CommandLineUtility: Specifies backup retention period
+
+    section CommandLineUtility initiates backup process
+        CommandLineUtility->>User: Displays backup summary
+        User->>CommandLineUtility: Confirms backup settings
+        CommandLineUtility->>BackupSystem: Initiates backup process
+        BackupSystem->>CommandLineUtility: Performs backup process
+        CommandLineUtility->>User: Displays backup completion message
+        CommandLineUtility->>User: Sends backup report via email
+        CommandLineUtility->>User: Prompts user to view backup log
+
+    section User ends backup process
+        User->>CommandLineUtility: Types exit command and hits enter
+        CommandLineUtility->>User: Displays exit message
+```
